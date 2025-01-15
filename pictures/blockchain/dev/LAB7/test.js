@@ -1,7 +1,7 @@
 const Blockchain = require('./blockchain');
 
 // Create a new instance of Blockchain
-const williamsdavidiyehsen227030 = new Blockchain();
+const ugwudonaldchukwuemeriesenvug228286 = new Blockchain();
 
 // Define a sample previous block hash
 const previousBlockHash = '20985DA6CCF066ASDED38C1D27C35692E13';
@@ -17,5 +17,5 @@ const currentBlockData = [{
 const nonce = 100;
 
 // Call the hashBlock method and print the result
-const hash = williamsdavidiyehsen227030.hashBlock(previousBlockHash, currentBlockData, nonce);
+const hash = ugwudonaldchukwuemeriesenvug228286.hashBlock(previousBlockHash, currentBlockData, nonce);
 console.log("hash is " + hash);
